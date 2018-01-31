@@ -57,3 +57,4 @@ $route['foxtrot'] = 'tango';
 $route['bananas/rule'] = function() {
     return 'golf';
 };
+$route['show/(:any)'] = 'welcome/show/$1';
